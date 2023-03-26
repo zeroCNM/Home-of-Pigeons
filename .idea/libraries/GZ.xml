@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GZ">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GZ.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

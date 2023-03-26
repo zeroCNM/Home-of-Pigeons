@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="touhou_little_maid-1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tlm_custom_pack/touhou_little_maid-1.0.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

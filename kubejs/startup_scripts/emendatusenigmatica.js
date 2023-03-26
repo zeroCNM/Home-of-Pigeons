@@ -195,11 +195,11 @@ const emendatusenigmatica_vanilla_type = [
     'dust',
     'fragment',
     'gear',
-    //'gravel',1
+    //'gravel'
     'plate',
     'rod',
-    //'_ravel',
-    //'shard',
+    //'_ravel'
+    //'shard'
     '_cluster_shard'
 ]
 onEvent('item.registry', event => {

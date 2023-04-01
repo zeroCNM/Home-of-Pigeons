@@ -20,16 +20,16 @@ function entryIsBlacklisted(material, type) {
 function tagIsEmpty(tag) {
     return getPreferredItemInTag(Ingredient.of(tag)).id == air;
 }
-/*
+
 function getPreferredItemInTag(tag) {
     let pref =
-        utils
+        Utils
             .listOf(tag.stacks)
             .toArray()
             .sort(({ mod: a }, { mod: b }) => compareIndices(a, b, tag))[0] || Item.of(air);
     return pref;
-}*/
-function getPreferredItemInTag(tag) {
+}
+/*function getPreferredItemInTag(tag) {
     const items = tag.stacks.getItems();
     const pref = items.reduce((best, current) => {
         if (compareIndices(current.mod, best.mod, tag) < 0) {
@@ -38,13 +38,12 @@ function getPreferredItemInTag(tag) {
         return best;
     }, Item.of('minecraft:air'));
     return pref;
-}
-/*
-function getItemsInTag(tag) {
-    let items = utils.listOf(tag.stacks).toArray();
-    return items;
 }*/
 
+function getItemsInTag(tag) {
+    let items = Utils.listOf(tag.stacks).toArray();
+    return items;
+}
 
 function compareIndices(a, b, tag) {
     if (a == b) return 0; // iff a == b, they'll be found at the same position in modPriorities

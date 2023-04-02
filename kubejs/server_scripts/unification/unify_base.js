@@ -29,16 +29,6 @@ function getPreferredItemInTag(tag) {
             .sort(({ mod: a }, { mod: b }) => compareIndices(a, b, tag))[0] || Item.of(air);
     return pref;
 }
-/*function getPreferredItemInTag(tag) {
-    const items = tag.stacks.getItems();
-    const pref = items.reduce((best, current) => {
-        if (compareIndices(current.mod, best.mod, tag) < 0) {
-            return current;
-        }
-        return best;
-    }, Item.of('minecraft:air'));
-    return pref;
-}*/
 
 function getItemsInTag(tag) {
     let items = Utils.listOf(tag.stacks).toArray();

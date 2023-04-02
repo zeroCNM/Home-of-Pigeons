@@ -1,3 +1,4 @@
+//priority: 1001
 onEvent('item.tags', event => {
     const emendatusenigmatica_items = [
         'aluminum',

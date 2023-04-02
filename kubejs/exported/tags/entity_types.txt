@@ -194,11 +194,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:mooshroom
 
 #ars_nouveau:magic_find
-- ars_nouveau:starbuncle
-- ars_nouveau:drygmy
-- ars_nouveau:whirlisprig
-- ars_nouveau:bookwyrm
-- ars_nouveau:wixie
+'starbuncle
+'drygmy
+'whirlisprig
+'bookwyrm
+'wixie
 
 #ftbchunks:entity_interact_whitelist
 
@@ -239,8 +239,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:snow_golem
 
 #occultism:wild_hunt
-- occultism:wild_hunt_skeleton
-- occultism:wild_hunt_wither_skeleton
+'wild_hunt_skeleton
+'wild_hunt_wither_skeleton
 
 #crossroads:salt_vulnerable
 - minecraft:creeper
@@ -376,13 +376,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:magma_cube
 
 #carryon:entity_blacklist
-- ars_nouveau:whirlisprig
-- ars_nouveau:familiar_whirlisprig
-- ars_nouveau:familiar_drygmy
-- ars_nouveau:familiar_wixie
-- ars_nouveau:familiar_bookwyrm
-- ars_nouveau:wilden_boss
-- ars_nouveau:familiar_starbuncle
+'whirlisprig
+'familiar_whirlisprig
+'familiar_drygmy
+'familiar_wixie
+'familiar_bookwyrm
+'wilden_boss
+'familiar_starbuncle
 
 #pneumaticcraft:omnihopper_blacklisted
 - minecraft:villager
@@ -400,35 +400,35 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:chicken
 
 #occultism:healed_by_demons_dream_fruit
-- occultism:foliot
-- occultism:djinni
-- occultism:afrit
-- occultism:afrit_wild
-- occultism:marid
-- occultism:possessed_endermite
-- occultism:possessed_enderman
-- occultism:possessed_ghast
-- occultism:wild_hunt_skeleton
-- occultism:wild_hunt_wither_skeleton
-- occultism:otherworld_bird
-- occultism:greedy_familiar
-- occultism:bat_familiar
+'foliot
+'djinni
+'afrit
+'afrit_wild
+'marid
+'possessed_endermite
+'possessed_enderman
+'possessed_ghast
+'wild_hunt_skeleton
+'wild_hunt_wither_skeleton
+'otherworld_bird
+'greedy_familiar
+'bat_familiar
 - minecraft:parrot
-- occultism:deer_familiar
-- occultism:cthulhu_familiar
-- occultism:devil_familiar
-- occultism:dragon_familiar
-- occultism:blacksmith_familiar
-- occultism:guardian_familiar
-- occultism:headless_familiar
-- occultism:chimera_familiar
-- occultism:goat_familiar
-- occultism:shub_niggurath_familiar
-- occultism:beholder_familiar
-- occultism:fairy_familiar
-- occultism:mummy_familiar
-- occultism:beaver_familiar
-- occultism:shub_niggurath_spawn
+'deer_familiar
+'cthulhu_familiar
+'devil_familiar
+'dragon_familiar
+'blacksmith_familiar
+'guardian_familiar
+'headless_familiar
+'chimera_familiar
+'goat_familiar
+'shub_niggurath_familiar
+'beholder_familiar
+'fairy_familiar
+'mummy_familiar
+'beaver_familiar
+'shub_niggurath_spawn
 
 #forge:bats
 - minecraft:bat
@@ -623,8 +623,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - cutehermitcrabs:hermit_crab?
 - ecologics:coconut_crab?
 - biomemakeover:scuttler?
-- ars_nouveau:starbuncle?
-- ars_nouveau:whirlisprig?
+'starbuncle?
+'whirlisprig?
 
 #undergarden:cavern_creature
 - undergarden:nargoyle
